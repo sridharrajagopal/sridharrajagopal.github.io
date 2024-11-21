@@ -4,4 +4,27 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - sridharrajagopal/BreatheRight
+  - sridharrajagopal/SensorTagLogger
+  - upbeatlabs/UpbeatLabs_Python_MCP39F521
+  - upbeatlabs/UpbeatLabs_MCP39F521
+  - protostax/ProtoStaxAG_Arduino_Giga_Display_Demo
+  - protostax/ProtoStax_Documentation
+  - protostax/ProtoStax_StereoscopicCameraPi
+  - protostax/ProtoStax_Portable_Arduino_Game_Console
+  - protostax/ProtoStax_ISS_Tracker
+  - protostax/ProtoStax_MmlMusicPlayer
+  - protostax/ProtoStax_Headless_RPi_Example
+  - protostax/ProtoStax_RPi_LCD_Example
+  - protostax/ProtoStax_Tweeting_Camera
+  - protostax/ProtoStax_Arduino_Nano_BLE_RGBLED_Service
+  - protostax/ProtoStax_ePaper_Photo_Frame
+  - protostax/ProtoStax_Analog_Weather_Station
+  - protostax/ProtoStax_Air_Quality_Monitor
+  - protostax/ProtoStax_Touchless_Musical_Handwash_Timer
+  - protostax/ProtoStax_Word_Clock
+  - protostax/ProtoStax_Capacitive_Touch_Piano_Demo
+  - protostax/ProtoStax_Weather_Station_Demo
+  - protostax/ProtoStax_Traffic_Light
+  - protostax/ProtoStax_Audio_Visualizer_Demo
 
