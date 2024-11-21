@@ -75,7 +75,7 @@ acm_id: # your dl.acm.org/profile/id
 blogger_url: # your blogger URL
 bluesky_url: # your bluesky URL
 dblp_url: # your DBLP profile url
-discord_id: # your discord id (18-digit unique numerical identifier)
+discord_id: 835195423080579092 # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
 flickr_id: # your flickr id
 github_username: sridharrajagopal # your GitHub user name
@@ -94,8 +94,8 @@ orcid_id: # your ORCID ID
 osf_id: # your OSF ID
 pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
-quora_username: # your Quora username
-research_gate_profile: # your profile on ResearchGate
+quora_username: Sridhar-Rajagopal-6 # your Quora username
+research_gate_profile: Sridhar-Rajagopal-2 # your profile on ResearchGate
 scholar_userid: XWdjrXYAAAAJ # your Google Scholar ID
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
@@ -109,7 +109,7 @@ wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: # work page URL
 x_username: # your X handle
-youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
+youtube_id: # sridharrajagopal your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
@@ -134,8 +134,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Blog # blog_name will be displayed in your blog page
-blog_description: My random musings
+blog_name: My Blog # blog_name will be displayed in your blog page
+blog_description: I like to write tutorials and writeups that I share on Hackster and Medium primarily. The posts below show a sample of those. 
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
