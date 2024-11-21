@@ -6,7 +6,7 @@ subtitle: Entrepreneur. Software Engineer. Maker. Tinkerer. Internet-of-things a
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: sridhar_rajagopal.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Mountain View, CA</p>
