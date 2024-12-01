@@ -172,6 +172,8 @@ disqus_shortname: sridharrajagopal # put your disqus shortname
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@sridhar.rajagopal/feed
+  - name: medium.com-upbeatlabs
+    rss_url: https://medium.com/feed/upbeatlabs-music
   - name: Hackster
     posts:
       - url: https://www.hackster.io/sridhar-rajagopal/protostaxag-arduino-giga-display-demo-2a2591
