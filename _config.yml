@@ -174,8 +174,46 @@ external_sources:
     rss_url: https://medium.com/@sridhar.rajagopal/feed
   - name: Hackster
     posts:
-      - url: https://www.hackster.io/sridhar-rajagopal
-        published_date: 2024-11-20
+      - url: https://www.hackster.io/sridhar-rajagopal/protostaxag-arduino-giga-display-demo-2a2591
+        published_date: 2024-09-06
+      - url: https://www.hackster.io/sridhar-rajagopal/portable-arduino-game-console-part-2-snake-game-ab5137
+        published_date: 2022-08-02
+      - url: https://www.hackster.io/sridhar-rajagopal/portable-arduino-game-console-part-1-endless-runner-7a6019
+        published_date: 2022-07-07
+      - url: https://www.hackster.io/sridhar-rajagopal/breatheright-personalized-air-quality-monitoring-52dccd
+        published_date: 2021-09-20
+      - url: https://www.hackster.io/sridhar-rajagopal/control-arduino-nano-ble-with-bluetooth-python-331e33
+        published_date: 2021-07-07
+      - url: https://www.hackster.io/sridhar-rajagopal/photostax-digital-epaper-photo-frame-84d4ed
+        published_date: 2021-04-21
+      - url: https://www.hackster.io/sridhar-rajagopal/air-quality-monitor-with-retro-gauge-display-93d61a
+        published_date: 2021-03-18
+      - url: https://www.hackster.io/sridhar-rajagopal/touchless-musical-hand-wash-timer-766972
+        published_date: 2020-07-24
+      - url: https://www.hackster.io/sridhar-rajagopal/international-space-station-tracker-6afdca
+        published_date: 2020-07-23
+      - url: https://www.hackster.io/sridhar-rajagopal/word-clock-with-tricolor-epaper-raspberry-pi-and-protostax-01c241
+        published_date: 2020-07-12
+      - url: https://www.hackster.io/sridhar-rajagopal/raspberry-pi-high-quality-camera-headless-setup-tips-37903c
+        published_date: 2020-05-29
+      - url: https://www.hackster.io/sridhar-rajagopal/raspberry-pi-zero-project-cluster-computing-fun-77a028
+        published_date: 2020-03-19
+      - url: https://www.hackster.io/sridhar-rajagopal/traffic-light-redux-intersection-with-walk-request-buttons-70225e
+        published_date: 2019-11-15
+      - url: https://www.hackster.io/sridhar-rajagopal/keeping-raspberry-pi-4-cool-with-protostax-enclosure-fans-735ccc
+        published_date: 2019-08-26
+      - url: https://www.hackster.io/sridhar-rajagopal/multi-octave-portable-capacitive-touch-piano-0ac3e4
+        published_date: 2019-08-15
+      - url: https://www.hackster.io/sridhar-rajagopal/portable-capacitive-touch-piano-2c38e9
+        published_date: 2019-07-30
+      - url: https://www.hackster.io/sridhar-rajagopal/rgb-matrix-audio-visualizer-with-arduino-845062
+        published_date: 2019-07-12
+      - url: https://www.hackster.io/sridhar-rajagopal/weather-station-with-epaper-and-raspberry-pi-c26a70
+        published_date: 2019-06-27
+      - url: https://www.hackster.io/sridhar-rajagopal/how-to-build-an-arduino-energy-monitor-and-data-logger-3bf795
+        published_date: 2019-03-06
+      - url: https://www.hackster.io/sridhar-rajagopal/internet-connected-energy-monitor-95f7a5
+        published_date: 2017-10-17     
 
 # -----------------------------------------------------------------------------
 # Newsletter
