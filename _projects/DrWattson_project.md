@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Dr. Wattson Energy Monitoring Board
+title: Dr. Wattson
 description: Easily Add Energy Monitoring to Your Next Project
 img: assets/img/DrWattson.png
 redirect: https://www.upbeatlabs.com/wattson/
