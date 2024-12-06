@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Sridhar
-middle_name: 
+middle_name:
 last_name: Rajagopal
 email: sridhar.rajagopal@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -135,7 +135,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: My Blog # blog_name will be displayed in your blog page
-blog_description: I like to write tutorials and writeups that I share on Hackster and Medium primarily. The posts below show a sample of those. 
+blog_description: I like to write tutorials and writeups that I share on Hackster and Medium primarily. The posts below show a sample of those.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -215,7 +215,7 @@ external_sources:
       - url: https://www.hackster.io/sridhar-rajagopal/how-to-build-an-arduino-energy-monitor-and-data-logger-3bf795
         published_date: 2019-03-06
       - url: https://www.hackster.io/sridhar-rajagopal/internet-connected-energy-monitor-95f7a5
-        published_date: 2017-10-17     
+        published_date: 2017-10-17
 
 # -----------------------------------------------------------------------------
 # Newsletter
