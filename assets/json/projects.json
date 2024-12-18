@@ -24,14 +24,14 @@
     {
       "title": "Make Your Own Arduino Game Boy",
       "title-link": "https://www.hackster.io/sridhar-rajagopal/make-your-own-arduino-game-boy-7a6019",
-      "media": "https://hackster.imgix.net/uploads/attachments/1466297/protostax_endless_runner_game_demo_AXfo4jzNdr.gif?auto=format%2Ccompress&gifq=35&w=300&h=225&fit=min&fm=mp4",
+      "media": "https://hackster.imgix.net/uploads/attachments/1466297/protostax_endless_runner_game_demo_AXfo4jzNdr.gif?auto=format%2Ccompress&gifq=35&w=300&h=225&fit=min&fm=gif",
       "description": "Make a portable Arduino Gamer with a 16x2 LCD & 2 buttons and run an Endless Runner game with background music and sound effects!",
       "products": ["ProtoStax Enclosure for Arduino", "ProtoStax LCD Kit V2", "ProtoStax Kit for Momentary Push Button Switches"]
     },
     {
       "title": "Multi-Track Music Player",
       "title-link": "https://www.hackster.io/sridhar-rajagopal/multi-track-music-player-f661ba",
-      "media": "https://hackster.imgix.net/uploads/attachments/1415330/protostax_music_player_2022-02-28_16_26_57_QAAbatDOLq.gif?auto=format%2Ccompress&amp;gifq=35&amp;w=300&amp;h=225&amp;fit=min&amp;fm=mp4",
+      "media": "https://hackster.imgix.net/uploads/attachments/1415330/protostax_music_player_2022-02-28_16_26_57_QAAbatDOLq.gif?auto=format%2Ccompress&amp;gifq=35&amp;w=300&amp;h=225&amp;fit=min&amp;fm=gif",
       "description": "Playback two musical scores simultaneously while showing synchronized lyrics",
       "products": ["ProtoStax Enclosure for Arduino", "ProtoStax LCD Kit V2", "ProtoStax Kit for Momentary Push Button Switches"]
     },
@@ -45,7 +45,7 @@
     {
       "title": "Touchless Musical Hand Wash Timer",
       "title-link": "https://www.hackster.io/sridhar-rajagopal/touchless-musical-hand-wash-timer-766972",
-      "media": "https://hackster.imgix.net/uploads/attachments/1163829/protostax_touchless_handwash_musical_timer_tKuLzFOY0z.gif?auto=format%2Ccompress&amp;gifq=35&amp;w=300&amp;h=225&amp;fit=min&amp;fm=mp4",
+      "media": "https://hackster.imgix.net/uploads/attachments/1163829/protostax_touchless_handwash_musical_timer_tKuLzFOY0z.gif?auto=format%2Ccompress&amp;gifq=35&amp;w=300&amp;h=225&amp;fit=min&amp;fm=gif",
       "description": "Touchless hand wash timer that shows a countdown clock &amp; also plays a rotating selection of 20-second jingles. Add your own jingle easily!",
       "products": [
         "ProtoStax Enclosure for Arduino",
@@ -57,7 +57,7 @@
     {
       "title": "RGB Matrix Audio Visualizer with Arduino",
       "title-link": "https://www.hackster.io/sridhar-rajagopal/rgb-matrix-audio-visualizer-with-arduino-845062",
-      "media": "https://hackster.imgix.net/uploads/attachments/939311/audiovisualizerfinal_5_2019-07-15_09_36_09_q9E5PCnbco.gif?auto=format%2Ccompress&amp;gifq=35&amp;w=300&amp;h=225&amp;fit=min&amp;fm=mp4",
+      "media": "https://hackster.imgix.net/uploads/attachments/939311/audiovisualizerfinal_5_2019-07-15_09_36_09_q9E5PCnbco.gif?auto=format%2Ccompress&amp;gifq=35&amp;w=300&amp;h=225&amp;fit=min&amp;fm=gif",
       "description": "Make beautiful music with Adafruit, SparkFun, Arduino and ProtoStax! Create an RGB matrix audio visualizer with Arduino.",
       "products": ["ProtoStax Enclosure for Arduino"]
     },
@@ -76,14 +76,14 @@
     {
       "title": "International Space Station Tracker",
       "title-link": "https://www.hackster.io/sridhar-rajagopal/international-space-station-tracker-6afdca",
-      "media": "https://hackster.imgix.net/uploads/attachments/1145217/protostax_iss_tracker_2_B5atadM82k.gif?auto=format%2Ccompress&amp;gifq=35&amp;w=300&amp;h=225&amp;fit=min&amp;fm=mp4",
+      "media": "https://hackster.imgix.net/uploads/attachments/1145217/protostax_iss_tracker_2_B5atadM82k.gif?auto=format%2Ccompress&amp;gifq=35&amp;w=300&amp;h=225&amp;fit=min&amp;fm=gif",
       "description": "Track the ISS' current location &amp; trajectory using a Raspberry Pi, ePaper Display, ProtoStax Enclosure and Python.",
       "products": ["ProtoStax Enclosure for Raspberry Pi 5 / 4 / 3 Model B/B+"]
     },
     {
       "title": "Multi-Octave Portable Capacitive Touch Piano",
       "title-link": "https://www.hackster.io/sridhar-rajagopal/multi-octave-portable-capacitive-touch-piano-0ac3e4",
-      "media": "https://hackster.imgix.net/uploads/attachments/953136/uploads2ftmp2f71e05f3c-bca8-4fa8-af31-db2216a3df562fmulti-octaveportablecapacitivetouchpianointro_2019-08-1512_37_53_jhv9ePjW4P.gif?auto=format%2Ccompress&amp;gifq=35&amp;w=300&amp;h=225&amp;fit=min&amp;fm=mp4",
+      "media": "https://hackster.imgix.net/uploads/attachments/953136/uploads2ftmp2f71e05f3c-bca8-4fa8-af31-db2216a3df562fmulti-octaveportablecapacitivetouchpianointro_2019-08-1512_37_53_jhv9ePjW4P.gif?auto=format%2Ccompress&amp;gifq=35&amp;w=300&amp;h=225&amp;fit=min&amp;fm=gif",
       "description": "Extending the \"Portable Capacitive Touch Piano\" to span multiple octaves using two push buttons! This portable piano packs quite a punch!",
       "products": ["ProtoStax Enclosure for Arduino", "ProtoStax Kit for Momentary Push Button Switches"]
     },
@@ -116,21 +116,21 @@
     {
       "title": "Traffic Light Redux! -Intersection with Walk Request Buttons",
       "title-link": "https://www.hackster.io/sridhar-rajagopal/traffic-light-redux-intersection-with-walk-request-buttons-70225e",
-      "media": "https://hackster.imgix.net/uploads/attachments/1018584/trafficlightredux_xRSwFPn0wl.gif?auto=format%2Ccompress&gifq=35&w=300&h=225&fit=min&fm=mp4",
+      "media": "https://hackster.imgix.net/uploads/attachments/1018584/trafficlightredux_xRSwFPn0wl.gif?auto=format%2Ccompress&gifq=35&w=300&h=225&fit=min&fm=gif",
       "description": "Reimagining the simple traffic light project with intersection traffic lights & crosswalk signals with buttons to request crossing.",
       "products": ["ProtoStax Enclosure for Arduino", "ProtoStax Enclosure for Breadboards/Custom"]
     },
     {
       "title": "Word Clock with tricolor ePaper, Raspberry Pi and ProtoStax",
       "title-link": "https://www.hackster.io/sridhar-rajagopal/word-clock-with-tricolor-epaper-raspberry-pi-and-protostax-01c241",
-      "media": "https://hackster.imgix.net/uploads/attachments/1138947/protostaxwordclock_f1qVXzg5dL.gif?auto=format%2Ccompress&gifq=35&w=300&h=225&fit=min&fm=mp4",
+      "media": "https://hackster.imgix.net/uploads/attachments/1138947/protostaxwordclock_f1qVXzg5dL.gif?auto=format%2Ccompress&gifq=35&w=300&h=225&fit=min&fm=gif",
       "description": "Build your own portable tabletop Word Clock with a 2.7 inch ePaper Display, Raspberry Pi and ProtoStax Enclosure",
       "products": ["ProtoStax Enclosure for Raspberry Pi 5 / 4 / 3 Model B/B+"]
     },
     {
       "title": "Air Quality Monitor with Retro Gauge Display",
       "title-link": "https://www.hackster.io/sridhar-rajagopal/air-quality-monitor-with-retro-gauge-display-93d61a",
-      "media": "https://hackster.imgix.net/uploads/attachments/1273358/img_2816_2021-03-14_15_00_06_cZGLDRcx9x.gif?auto=format%2Ccompress&gifq=35&w=300&h=225&fit=min&fm=mp4",
+      "media": "https://hackster.imgix.net/uploads/attachments/1273358/img_2816_2021-03-14_15_00_06_cZGLDRcx9x.gif?auto=format%2Ccompress&gifq=35&w=300&h=225&fit=min&fm=gif",
       "description": "Monitor the Air Quality in your neighborhood with this attractive retro visual gauge for Air Quality Index!",
       "products": [
         "ProtoStax Enclosure for Raspberry Pi A+",
@@ -145,7 +145,7 @@
     {
       "title": "ProtoStax Raspberry Pi Enclosure with I2C LCD Display",
       "title-link": "https://www.hackster.io/protostax-team/protostax-raspberry-pi-enclosure-with-i2c-lcd-display-6d09a6",
-      "media": "https://hackster.imgix.net/uploads/attachments/1390533/img_5358_2021-12-28_17_55_56_DVnSu9Ub8W.gif?auto=format%2Ccompress&gifq=35&w=300&h=225&fit=min&fm=mp4",
+      "media": "https://hackster.imgix.net/uploads/attachments/1390533/img_5358_2021-12-28_17_55_56_DVnSu9Ub8W.gif?auto=format%2Ccompress&gifq=35&w=300&h=225&fit=min&fm=gif",
       "description": "Use a 16x2 Character I2C LCD w/ your Raspberry Pi & ProtoStax Enclosure to display information like IP address, date/time & much more!",
       "products": [
         "ProtoStax Enclosure for Raspberry Pi A+",
@@ -157,7 +157,7 @@
     {
       "title": "Portable Capacitive Touch Piano",
       "title-link": "https://www.hackster.io/sridhar-rajagopal/portable-capacitive-touch-piano-2c38e9",
-      "media": "https://hackster.imgix.net/uploads/attachments/947506/uploads2ftmp2f4b28d69c-8736-4da0-9268-9e557e89f8bb2fprotostaxpianodemotesting_2019-07-3112_43_50_PYyUpIKHvX.gif?auto=format%2Ccompress&gifq=35&w=300&h=225&fit=min&fm=mp4",
+      "media": "https://hackster.imgix.net/uploads/attachments/947506/uploads2ftmp2f4b28d69c-8736-4da0-9268-9e557e89f8bb2fprotostaxpianodemotesting_2019-07-3112_43_50_PYyUpIKHvX.gif?auto=format%2Ccompress&gifq=35&w=300&h=225&fit=min&fm=gif",
       "description": "Make your own capacitive touch piano with slide keys. Use \"Secret-Keys\" demo jingles if your playing is not as good as your coding! :-)",
       "products": ["ProtoStax Enclosure for Arduino"]
     },
