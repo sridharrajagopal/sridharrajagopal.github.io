@@ -1,0 +1,20 @@
+<div class="col">
+  <a href="{{ project.title-link }}">
+    <div class="card h-100 hoverable">
+      {% if project.media %}
+        {%
+          include figure.liquid
+          loading="eager"
+          path=project.media
+          sizes = "250px"
+          alt="project thumbnail"
+          class="card-img-top"
+        %}
+      {% endif %}
+      <div class="card-body">
+        <h2 class="card-title">{{ project.title }}</h2>
+        <p class="card-text">{{ project.description }}</p>
+      </div>
+    </div>
+  </a>
+</div>

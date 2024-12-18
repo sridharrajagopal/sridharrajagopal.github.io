@@ -1,0 +1,19 @@
+<div class="col mb-4">
+  <a href="{{ project.title-link }}">
+    <div class="card h-100 hoverable">
+      <div class="row no-gutters">
+        {% if project.media %}
+          <div class="col-md-6">
+            {% include figure.liquid loading="eager" path=project.media sizes="(min-width: 768px) 156px, 50vw" alt="project thumbnail" class="card-img" %}
+          </div>
+        {% endif %}
+        <div class="{% if project.media %}col-md-6{% else %}col-md-12{% endif %}">
+          <div class="card-body">
+            <h3 class="card-title">{{ project.title }}</h3>
+            <p class="card-text">{{ project.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

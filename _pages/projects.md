@@ -72,14 +72,14 @@ horizontal: false
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
     {% for project in tutorials_and_projects %}
-      {% include projects_horizontal.liquid %}
+      {% include tutorials_and_projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
   <div class="row row-cols-1 row-cols-md-3">
     {% for project in  tutorials_and_projects %}
-      {% include projects.liquid %}
+      {% include tutorials_and_projects.liquid %}
     {% endfor %}
   </div>
   {% endif %}
