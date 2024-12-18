@@ -66,7 +66,7 @@ horizontal: false
   <a id="tutorials and projects" href=".#tutorials_and_projects">
     <h2 class="category">tutorials and projects</h2>
   </a>
-  {% assign tutorials_and_projects = site.data.projects %}
+  {% assign tutorials_and_projects = site.data.projects.projects %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
