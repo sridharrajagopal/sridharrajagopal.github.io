@@ -677,7 +677,7 @@ jekyll_get_json:
   - data: resume
     json: assets/json/resume.json # it can also be an url
   - data: projects
-    json: assets/json/projects.json 
+    json: assets/json/projects.json
 
 jsonresume:
   - basics
