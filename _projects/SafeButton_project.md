@@ -37,7 +37,6 @@ Maker event with a hardware focus. My idea for Safe Button was among
 the top ideas and I ended up forming a team around it. We won the Best
 Customer Validation award at the VC presentation on Sunday.
 
-
 **Contributions**
 
 The Safe Button team consisted of 9 members (including an honorary kid
@@ -50,7 +49,3 @@ single one pulled their weight with a division of labor.
 Team: Sridhar Rajagopal, Srini Badri, Rachit Biyani, Isabel Perez
 Ruiz, Steven Owens, David Fisher, Rahul Makhijani, Kunal Desai, Tad
 Fisher
-
-
-
-
