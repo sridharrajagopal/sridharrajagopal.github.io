@@ -14,20 +14,28 @@
       "description": "In this article, I explain how I integrated Dr. Wattson Board with Raspberry Pi and AWS IoT to create an Internet-connected energy monitor.",
       "products": ["Dr. Wattson Energy Monitoring Board V2", "ProtoStax Enclosure for Dr. Wattson Energy Monitor"]
     },
-    { 
-        "title" : "Stereoscopic (3D) Streaming Camera and Viewer - Part 2",
-        "title-link" : "https://www.hackster.io/sridhar-rajagopal/stereoscopic-3d-streaming-camera-and-viewer-part-2-1754f7",
-        "media" : "https://hackster.imgix.net/uploads/attachments/1809706/_7YlhPgwa2M.blob?auto=compress%2Cformat&w=300&h=225&fit=min",
-        "description" : "Tripod mountable stereoscopic 3D Camera - stream stereoscopic video using Raspberry Pi 5 to a stereoscopic viewer like Google Cardboard",
-        "products" : ["ProtoStax Enclosure for Raspberry Pi Zero", "ProtoStax Enclosure for Raspberry Pi 5 / 4 / 3 Model B/B+", "ProtoStax Stereoscopic 3D Camera Kit for Raspberry Pi Camera - 60mm Stereo Base"]
+    {
+      "title": "Stereoscopic (3D) Streaming Camera and Viewer - Part 2",
+      "title-link": "https://www.hackster.io/sridhar-rajagopal/stereoscopic-3d-streaming-camera-and-viewer-part-2-1754f7",
+      "media": "https://hackster.imgix.net/uploads/attachments/1809706/_7YlhPgwa2M.blob?auto=compress%2Cformat&w=300&h=225&fit=min",
+      "description": "Tripod mountable stereoscopic 3D Camera - stream stereoscopic video using Raspberry Pi 5 to a stereoscopic viewer like Google Cardboard",
+      "products": [
+        "ProtoStax Enclosure for Raspberry Pi Zero",
+        "ProtoStax Enclosure for Raspberry Pi 5 / 4 / 3 Model B/B+",
+        "ProtoStax Stereoscopic 3D Camera Kit for Raspberry Pi Camera - 60mm Stereo Base"
+      ]
     },
-    { 
-        "title" : "Stereoscopic (3D) Streaming Camera and Viewer",
-        "title-link" : "https://www.protostax.com/blogs/news/stereoscopic-3d-streaming-camera-and-viewer",
-        "media" : "https://www.protostax.com/cdn/shop/articles/IMG_8343.jpg?v=1673424808&width=300",
-        "description" : "Tripod mountable stereoscopic 3D Camera that transmits a stereoscopic video stream over HTTP to a stereoscopic viewer like Google Cardboard",
-        "products" : ["ProtoStax Enclosure for Raspberry Pi Zero", "ProtoStax Enclosure for Raspberry Pi 5 / 4 / 3 Model B/B+", "ProtoStax Stereoscopic 3D Camera Kit for Raspberry Pi Camera - 60mm Stereo Base"]
-    }, 
+    {
+      "title": "Stereoscopic (3D) Streaming Camera and Viewer",
+      "title-link": "https://www.protostax.com/blogs/news/stereoscopic-3d-streaming-camera-and-viewer",
+      "media": "https://www.protostax.com/cdn/shop/articles/IMG_8343.jpg?v=1673424808&width=300",
+      "description": "Tripod mountable stereoscopic 3D Camera that transmits a stereoscopic video stream over HTTP to a stereoscopic viewer like Google Cardboard",
+      "products": [
+        "ProtoStax Enclosure for Raspberry Pi Zero",
+        "ProtoStax Enclosure for Raspberry Pi 5 / 4 / 3 Model B/B+",
+        "ProtoStax Stereoscopic 3D Camera Kit for Raspberry Pi Camera - 60mm Stereo Base"
+      ]
+    },
     {
       "title": "Make Your Own Arduino Game Boy",
       "title-link": "https://www.hackster.io/sridhar-rajagopal/make-your-own-arduino-game-boy-7a6019",
