@@ -3,7 +3,7 @@
     {
       "title": "How to Build an Arduino Energy Monitor and Data Logger",
       "title-link": "https://www.hackster.io/sridhar-rajagopal/how-to-build-an-arduino-energy-monitor-and-data-logger-3bf795",
-      "media": "https://hackster.imgix.net/uploads/attachments/1809734/_Dr42Kpf4f8.blob?auto=compress%2Cformat&w=300&h=225&fit=min",
+      "media": "https://hackster.imgix.net/uploads/attachments/790634/blob_F3Zb6Bfw5u.blob?auto=compress%2Cformat&w=300&h=225&fit=min",
       "description": "How I built an Arduino energy monitor and data logger to collect energy data for different loads and plotted that data using Excel.",
       "products": ["Dr. Wattson Energy Monitoring Board V2", "ProtoStax Enclosure for Dr. Wattson Energy Monitor"]
     },
@@ -17,7 +17,7 @@
     {
       "title": "Stereoscopic (3D) Streaming Camera and Viewer - Part 2",
       "title-link": "https://www.hackster.io/sridhar-rajagopal/stereoscopic-3d-streaming-camera-and-viewer-part-2-1754f7",
-      "media": "https://hackster.imgix.net/uploads/attachments/1809706/_7YlhPgwa2M.blob?auto=compress%2Cformat&w=300&h=225&fit=min",
+      "media": "https://hackster.imgix.net/uploads/attachments/1809734/_Dr42Kpf4f8.blob?auto=compress%2Cformat&w=300&h=225&fit=min",
       "description": "Tripod mountable stereoscopic 3D Camera - stream stereoscopic video using Raspberry Pi 5 to a stereoscopic viewer like Google Cardboard",
       "products": [
         "ProtoStax Enclosure for Raspberry Pi Zero",
