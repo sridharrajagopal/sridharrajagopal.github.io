@@ -1,4 +1,6 @@
-table, th, td {
+table,
+th,
+td {
   border: 1px solid black;
   border-collapse: collapse;
   padding: 10px;
@@ -26,5 +28,3 @@ caption {
   caption-side: bottom;
   padding: 10px;
 }
-
-

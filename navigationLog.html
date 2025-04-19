@@ -1,374 +1,368 @@
-<HTML>
-<HEAD>
-<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
-<meta name="Author" content="Sridhar Rajagopal">
-<meta name="Description" content="VFR Navigation Log">
-<meta name="KeyWords" content="online, navigation, log, software, flight planning, aviation, cross country, x-country, xc">
-<TITLE>VFR Navigation Log</TITLE>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+    <meta name="Author" content="Sridhar Rajagopal" />
+    <meta name="Description" content="VFR Navigation Log" />
+    <meta name="KeyWords" content="online, navigation, log, software, flight planning, aviation, cross country, x-country, xc" />
+    <title>VFR Navigation Log</title>
 
-<script src="assets/js/navigationLog.js"></script>
-<script src="https://kit.fontawesome.com/bb5db4b66d.js" crossorigin="anonymous"></script>
+    <script src="assets/js/navigationLog.js"></script>
+    <script src="https://kit.fontawesome.com/bb5db4b66d.js" crossorigin="anonymous"></script>
 
-<SCRIPT LANGUAGE="JavaScript">
-<!--
+    <script language="JavaScript">
+      <!--
 
-// -->
-</SCRIPT>
+      // -->
+    </script>
 
+    <link defer rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+    </style>
 
-<link defer rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-<style>
-body {
-  font-family: "Roboto", sans-serif;
-}
-</style>
+    <link rel="stylesheet" href="assets/css/navigationLog.css" />
+  </head>
+  <body link="#0000ff" vlink="#800080">
+    <a href="index.html"><i class="fa-solid fa-house"></i></a>
+    <h1 style="display: inline" align="CENTER">VFR Navigation Log</h1>
+    <h3 style="display: inline; float: right"><a href="navigationLog_help.html">Help</a></h3>
 
-<link rel="stylesheet" href="assets/css/navigationLog.css">
- 
+    <div class="row">
+      <div class="column">
+        <table class="aux last-child">
+          <thead>
+            <tr height="20px">
+              <td></td>
+              <td></td>
+            </tr>
+          </thead>
 
-</HEAD>
-<BODY LINK="#0000ff" VLINK="#800080">
+          <tbody>
+            <tr>
+              <td class="fitwidth">Aircraft Number</td>
+              <td><input type="TEXT" name="AIRCRAFTNUM" /></td>
+            </tr>
+            <tr height="100%">
+              <td>Notes</td>
+              <td><textarea TYPE="TEXT" name="NOTES" rows="5"></textarea></td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr height="20px">
+              <td></td>
+              <td></td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+      <div class="column">
+        <table class="aux last-child">
+          <thead>
+            <tr>
+              <th colspan="3">Airport & ATIS Advisories</th>
+            </tr>
+            <tr>
+              <th>Departure</th>
+              <th></th>
+              <th>Destination</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><input type="TEXT" name="A1" /></td>
+              <td>ATIS Code</td>
+              <td><input type="TEXT" name="C1" /></td>
+            </tr>
+            <tr>
+              <td><input type="TEXT" name="A2" /></td>
+              <td>Ceiling & Visibility</td>
+              <td><input type="TEXT" name="C2" /></td>
+            </tr>
+            <tr>
+              <td><input type="TEXT" name="A3" /></td>
+              <td>Wind</td>
+              <td><input type="TEXT" name="C3" /></td>
+            </tr>
+            <tr>
+              <td><input type="TEXT" name="A4" /></td>
+              <td>Altimeter</td>
+              <td><input type="TEXT" name="C4" /></td>
+            </tr>
+            <tr>
+              <td><input type="TEXT" name="A5" /></td>
+              <td>Approach</td>
+              <td><input type="TEXT" name="C5" /></td>
+            </tr>
+            <tr>
+              <td><input type="TEXT" name="A6" /></td>
+              <td>Runway</td>
+              <td><input type="TEXT" name="C6" /></td>
+            </tr>
+            <tr>
+              <td><input type="TEXT" name="A7" /></td>
+              <td>Time Check</td>
+              <td><input type="TEXT" name="C7" /></td>
+            </tr>
+            <tr>
+              <td><input type="TEXT" name="A8" /></td>
+              <td><input type="TEXT" name="B8" /></td>
+              <td><input type="TEXT" name="C8" /></td>
+            </tr>
+            <tr>
+              <td><input type="TEXT" name="A8" /></td>
+              <td><input type="TEXT" name="B8" /></td>
+              <td><input type="TEXT" name="C8" /></td>
+            </tr>
+          </tbody>
 
-<a href="index.html"><i class="fa-solid fa-house"></i></a>
-<H1 style="display: inline" ALIGN="CENTER">VFR Navigation Log</H1>
-<h3 style="display: inline; float: right"><a href="navigationLog_help.html">Help</a></h3>
+          <tfoot>
+            <tr height="20px">
+              <th colspan="3"></th>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+      <div class="column">
+        <table class="aux last-child">
+          <thead>
+            <tr>
+              <th colspan="3">Airport Frequencies</th>
+            </tr>
+            <tr>
+              <th>Departure</th>
+              <th></th>
+              <th>Destination</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><input type="TEXT" name="A0" /></td>
+              <td></td>
+              <td><input type="TEXT" name="C0" /></td>
+            </tr>
+            <tr>
+              <td><input type="TEXT" name="A1" /></td>
+              <td>ATIS</td>
+              <td><input type="TEXT" name="C1" /></td>
+            </tr>
+            <tr>
+              <td><input type="TEXT" name="A2" /></td>
+              <td>Ground/Approach</td>
+              <td><input type="TEXT" name="C2" /></td>
+            </tr>
+            <tr>
+              <td><input type="TEXT" name="A3" /></td>
+              <td>Tower</td>
+              <td><input type="TEXT" name="C3" /></td>
+            </tr>
+            <tr>
+              <td><input type="TEXT" name="A4" /></td>
+              <td>Departure/Ground</td>
+              <td><input type="TEXT" name="C4" /></td>
+            </tr>
+            <tr>
+              <td><input type="TEXT" name="A5" /></td>
+              <td>CTAF</td>
+              <td><input type="TEXT" name="C5" /></td>
+            </tr>
+            <tr>
+              <td><input type="TEXT" name="A6" /></td>
+              <td>FSS</td>
+              <td><input type="TEXT" name="C6" /></td>
+            </tr>
+            <tr>
+              <td><input type="TEXT" name="A7" /></td>
+              <td>UNICOM</td>
+              <td><input type="TEXT" name="C7" /></td>
+            </tr>
+            <tr>
+              <td><input type="TEXT" name="A7" /></td>
+              <td>Field Elev.</td>
+              <td><input type="TEXT" name="C7" /></td>
+            </tr>
+          </tbody>
 
-<div class="row">
-<div class="column">
-<TABLE class="aux last-child">
-  <thead>
-<tr height="20px">
-  <td> </td>
-  <td> </td>
-  
-</tr>
-  </thead>
+          <tfoot>
+            <tr height="20px">
+              <th colspan="3"></th>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+    <p></p>
 
-<tbody>
-<tr>
-  <td class="fitwidth"> Aircraft Number </td>
-  <td>  <INPUT TYPE="TEXT" NAME="AIRCRAFTNUM" > </td>
-  
-</tr>
-<tr height="100%">
-  <td> Notes </td>
-  <td> <TEXTAREA TYPE="TEXT" NAME="NOTES" rows="5"></TEXTAREA> </td>
-</tr>
-</tbody>
-  <tfoot>
-<tr height="20px">
-  <td> </td>
-  <td> </td>
-  
-</tr>
-  </tfoot>
-</TABLE>
-</div>
-<div class="column">
-<TABLE CLASS="aux last-child">
-<THEAD>
-  <tr>
-    <th colspan="3">Airport & ATIS Advisories</th>
-  </tr>
-   <tr>
-    <th>Departure</th>
-    <th></th>
-    <th>Destination</th>
-  </tr>
-</THEAD>
-<TBODY>
-  <tr>
-    <td><INPUT TYPE="TEXT" NAME="A1"></td>
-    <td>ATIS Code</td>
-    <td><INPUT TYPE="TEXT" NAME="C1"></td>
-  </tr>
-  <tr>
-    <td><INPUT TYPE="TEXT" NAME="A2"></td>
-    <td>Ceiling & Visibility</td>
-    <td><INPUT TYPE="TEXT" NAME="C2"></td>
-  </tr>
-   <tr>
-    <td><INPUT TYPE="TEXT" NAME="A3"></td>
-    <td>Wind</td>
-    <td><INPUT TYPE="TEXT" NAME="C3"></td>
-  </tr>
-  <tr>
-    <td><INPUT TYPE="TEXT" NAME="A4"></td>
-    <td>Altimeter</td>
-    <td><INPUT TYPE="TEXT" NAME="C4"></td>
-  </tr>
-  <tr>
-    <td><INPUT TYPE="TEXT" NAME="A5"></td>
-    <td>Approach</td>
-    <td><INPUT TYPE="TEXT" NAME="C5"></td>
-  </tr>
-  <tr>
-    <td><INPUT TYPE="TEXT" NAME="A6"></td>
-    <td>Runway</td>
-    <td><INPUT TYPE="TEXT" NAME="C6"></td>
-  </tr>
-  <tr>
-    <td><INPUT TYPE="TEXT" NAME="A7"></td>
-    <td>Time Check</td>
-    <td><INPUT TYPE="TEXT" NAME="C7"></td>
-  </tr>
-    <tr>
-    <td><INPUT TYPE="TEXT" NAME="A8"></td>
-    <td><INPUT TYPE="TEXT" NAME="B8"></td>
-    <td><INPUT TYPE="TEXT" NAME="C8"></td>
-  </tr>
-    <tr>
-    <td><INPUT TYPE="TEXT" NAME="A8"></td>
-    <td><INPUT TYPE="TEXT" NAME="B8"></td>
-    <td><INPUT TYPE="TEXT" NAME="C8"></td>
-  </tr>  
-</TBODY>
-
-<TFOOT>
-<tr height="20px">
-    <th colspan="3"> </th>
-  </tr>
-</TFOOT>  
-</TABLE>
-</div>
-<div class="column">
-
-<TABLE CLASS="aux last-child">
-<THEAD>
-  <tr>
-    <th colspan="3">Airport Frequencies</th>
-  </tr>
-   <tr>
-    <th>Departure</th>
-    <th></th>
-    <th>Destination</th>
-  </tr>
-</THEAD>
-<TBODY>
-  <tr>
-    <td><INPUT TYPE="TEXT" NAME="A0"></td>
-    <td></td>
-    <td><INPUT TYPE="TEXT" NAME="C0"></td>
-  </tr>  
-  <tr>
-    <td><INPUT TYPE="TEXT" NAME="A1"></td>
-    <td>ATIS</td>
-    <td><INPUT TYPE="TEXT" NAME="C1"></td>
-  </tr>
-  <tr>
-    <td><INPUT TYPE="TEXT" NAME="A2"></td>
-    <td>Ground/Approach</td>
-    <td><INPUT TYPE="TEXT" NAME="C2"></td>
-  </tr>
-   <tr>
-    <td><INPUT TYPE="TEXT" NAME="A3"></td>
-    <td>Tower</td>
-    <td><INPUT TYPE="TEXT" NAME="C3"></td>
-  </tr>
-  <tr>
-    <td><INPUT TYPE="TEXT" NAME="A4"></td>
-    <td>Departure/Ground</td>
-    <td><INPUT TYPE="TEXT" NAME="C4"></td>
-  </tr>
-  <tr>
-    <td><INPUT TYPE="TEXT" NAME="A5"></td>
-    <td>CTAF</td>
-    <td><INPUT TYPE="TEXT" NAME="C5"></td>
-  </tr>
-  <tr>
-    <td><INPUT TYPE="TEXT" NAME="A6"></td>
-    <td>FSS</td>
-    <td><INPUT TYPE="TEXT" NAME="C6"></td>
-  </tr>
-  <tr>
-    <td><INPUT TYPE="TEXT" NAME="A7"></td>
-    <td>UNICOM</td>
-    <td><INPUT TYPE="TEXT" NAME="C7"></td>
-  </tr>
-  <tr>
-    <td><INPUT TYPE="TEXT" NAME="A7"></td>
-    <td>Field Elev.</td>
-    <td><INPUT TYPE="TEXT" NAME="C7"></td>
-  </tr>  
-
-</TBODY>
-
-<TFOOT>
-  <tr height="20px">
-    <th colspan="3"> </th>
-  </tr>
-</TFOOT>  
-</TABLE>
-</div>
-</div>
-<p>
-
-
-<FORM NAME="NL">
-<TABLE CLASS="navLog" ID="NavLog">
-<thead>
-  <tr>
-    <td rowspan="3">Checkpoint (From)</td>
-    <td>VOR</td>
-    <td rowspan="3">Checkpoint (To)</td>
-    <td>VOR</td>
-    <td rowspan="3">Course (Route)</td>
-    <td rowspan="3">Altitude</td>
-    <td colspan="2">Wind</td>
-    <td>CAS</td>
-    <td colspan="3"></td>
-    <td rowspan="3">CH</td>
-    <td>Dist</td>
-    <td>GS</td>
-    <td colspan="2">Time Off <INPUT CLASS="fillEnroute" TYPE="TEXT" NAME="TIMEOFF" ></td>
-    <td colspan="2">Fuel <INPUT TYPE="TEXT" NAME="FUELTOT" ></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Ident</td>
-    <td>Ident</td>
-    <td>Dir</td>
-    <td>Vel</td>
-    <td><INPUT TYPE="TEXT" NAME="CAS" ></td>
-    <td>TC</td>
-    <td>TH</td>
-    <td>MH</td>
-    <td>Leg</td>
-    <td>Est</td>
-    <td>ETE</td>
-    <td>ETA</td>
-    <td>Rate</td>
-    <td>Amount</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Freq.</td>
-    <td>Freq.</td>
-    <td colspan="2">Temp.</td>
-    <td>TAS</td>
-    <td>WCA</td>
-    <td>Var.</td>
-    <td>Dev.</td>
-    <td>Rem</td>
-    <td>Act</td>
-    <td>ATE</td>
-    <td>ATA</td>
-    <td></td>
-    <td>Rem</td>
-    <td></td>
-  </tr></thead>
-<TBODY>
-  <tr>
-    <td rowspan="2"><TEXTAREA TYPE="TEXT" NAME="A1" rows="2"></TEXTAREA></td>
-    <td><INPUT TYPE="TEXT" NAME="B1"></td>
-    <td rowspan="2"><TEXTAREA TYPE="TEXT" NAME="C1" rows="2"></TEXTAREA></td>
-    <td><INPUT TYPE="TEXT" NAME="D1" ></td>
-    <td rowspan="2"><TEXTAREA TYPE="TEXT" NAME="E1" rows="2"></TEXTAREA></td>
-    <td rowspan="2"><TEXTAREA TYPE="TEXT" NAME="F1" rows="2"></TEXTAREA></td>
-    <td><INPUT TYPE="TEXT" NAME="G1"></td>
-    <td><INPUT TYPE="TEXT" NAME="H1" ></td>
-    <td rowspan="2"><INPUT TYPE="TEXT" NAME="I1" rows="2"></td>
-    <td><INPUT TYPE="TEXT" NAME="J1" ></td>
-    <td><INPUT TYPE="TEXT" NAME="K1" readonly disabled ></td>
-    <td><INPUT TYPE="TEXT" NAME="L1" readonly disabled></td>
-    <td rowspan="2"><INPUT TYPE="TEXT" NAME="M1" rows="2" readonly disabled></td>
-    <td><INPUT TYPE="TEXT" NAME="N1" ></td>
-    <td><INPUT TYPE="TEXT" NAME="O1" readonly disabled ></td>
-    <td><INPUT TYPE="TEXT" NAME="P1" readonly disabled ></td>
-    <td class="fillEnroute"></td>
-    <td rowspan="2"><INPUT TYPE="TEXT" NAME="R1" ></td>
-    <td><INPUT TYPE="TEXT" NAME="S1" readonly disabled ></td>
-    <td><INPUT TYPE="HIDDEN" NAME="T1" ></td>
-  </tr>
-  <tr>
-    <td><INPUT TYPE="TEXT" NAME="B2" ></td>
-    <td><INPUT TYPE="TEXT" NAME="D2" ></td>
-    <td colspan="2"><INPUT TYPE="TEXT" NAME="G2H2" ></td>
-    <td><INPUT TYPE="TEXT" NAME="J2" readonly disabled ></td>
-    <td><INPUT TYPE="TEXT" NAME="K2" ></td>
-    <td><INPUT TYPE="TEXT" NAME="L2" ></td>
-    <td><INPUT TYPE="TEXT" NAME="N2" readonly disabled></td>
-    <td class="fillEnroute"></td>
-    <td class="fillEnroute"></td>
-    <td class="fillEnroute"></td>
-    <td><INPUT TYPE="TEXT" NAME="S2" readonly disabled ></td>
-    <td></td>
-  </tr>
-</TBODY>
-<TFOOT>
-<TR ><TD VALIGN="MIDDLE">
-<P>
-</TD>
-<TD VALIGN="MIDDLE">
-<P>
-</TD>
-<TD VALIGN="MIDDLE">
-<P>
-</TD>
-<TD VALIGN="MIDDLE">
-<P>
-</TD>
-<TD VALIGN="MIDDLE">
-<P>
-</TD>
-<TD VALIGN="MIDDLE">
-<P>
-</TD>
-<TD VALIGN="MIDDLE">
-<P>
-</TD>
-<TD VALIGN="MIDDLE">
-<P>
-</TD>
-<TD VALIGN="MIDDLE">
-<P>
-</TD>
-<TD VALIGN="MIDDLE">
-<P>
-</TD>
-<TD VALIGN="MIDDLE">
-<P>
-</TD>
-<TD VALIGN="MIDDLE">
-<P>
-</TD>
-<TD VALIGN="MIDDLE">
-<FONT FACE="Arial"><P>Total </FONT></TD>
-<TD VALIGN="MIDDLE" >
-<P>
-<INPUT TYPE="TEXT" NAME="NTOT">
-</TD>
-<TD VALIGN="MIDDLE">
-<P>
-</TD>
-<TD VALIGN="MIDDLE" >
-<P>
-<INPUT TYPE="TEXT" NAME="PTOT" >
-</TD>
-<TD VALIGN="MIDDLE">
-<P>
-</TD>
-<TD VALIGN="MIDDLE">
-<P>
-</TD>
-<TD VALIGN="MIDDLE" >
-<P>
-<INPUT TYPE="TEXT" NAME="STOT" >
-</TD>
-<TD VALIGN="MIDDLE">
-<P>
-</TD>
-</TR>
-</TFOOT>
-</TABLE>
-<p>
-<INPUT class="large-button" TYPE="BUTTON" VALUE="COMPUTE" ONCLICK="ComputeResults(this.form)">
-<INPUT class="large-button" TYPE="reset" VALUE="CLEAR">
-<INPUT class="large-button" TYPE="BUTTON" VALUE="DELETE ROW" ONCLICK="deleteRow()">
-<INPUT class="large-button" TYPE="BUTTON" VALUE="ADD ROW" ONCLICK="insertRow()">
-</FORM>
-
-</BODY>
-</HTML>
-
-
+    <form name="NL">
+      <table class="navLog" id="NavLog">
+        <thead>
+          <tr>
+            <td rowspan="3">Checkpoint (From)</td>
+            <td>VOR</td>
+            <td rowspan="3">Checkpoint (To)</td>
+            <td>VOR</td>
+            <td rowspan="3">Course (Route)</td>
+            <td rowspan="3">Altitude</td>
+            <td colspan="2">Wind</td>
+            <td>CAS</td>
+            <td colspan="3"></td>
+            <td rowspan="3">CH</td>
+            <td>Dist</td>
+            <td>GS</td>
+            <td colspan="2">Time Off <input class="fillEnroute" type="TEXT" name="TIMEOFF" /></td>
+            <td colspan="2">Fuel <input type="TEXT" name="FUELTOT" /></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Ident</td>
+            <td>Ident</td>
+            <td>Dir</td>
+            <td>Vel</td>
+            <td><input type="TEXT" name="CAS" /></td>
+            <td>TC</td>
+            <td>TH</td>
+            <td>MH</td>
+            <td>Leg</td>
+            <td>Est</td>
+            <td>ETE</td>
+            <td>ETA</td>
+            <td>Rate</td>
+            <td>Amount</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Freq.</td>
+            <td>Freq.</td>
+            <td colspan="2">Temp.</td>
+            <td>TAS</td>
+            <td>WCA</td>
+            <td>Var.</td>
+            <td>Dev.</td>
+            <td>Rem</td>
+            <td>Act</td>
+            <td>ATE</td>
+            <td>ATA</td>
+            <td></td>
+            <td>Rem</td>
+            <td></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2"><textarea TYPE="TEXT" name="A1" rows="2"></textarea></td>
+            <td><input type="TEXT" name="B1" /></td>
+            <td rowspan="2"><textarea TYPE="TEXT" name="C1" rows="2"></textarea></td>
+            <td><input type="TEXT" name="D1" /></td>
+            <td rowspan="2"><textarea TYPE="TEXT" name="E1" rows="2"></textarea></td>
+            <td rowspan="2"><textarea TYPE="TEXT" name="F1" rows="2"></textarea></td>
+            <td><input type="TEXT" name="G1" /></td>
+            <td><input type="TEXT" name="H1" /></td>
+            <td rowspan="2"><input type="TEXT" name="I1" rows="2" /></td>
+            <td><input type="TEXT" name="J1" /></td>
+            <td><input type="TEXT" name="K1" readonly disabled /></td>
+            <td><input type="TEXT" name="L1" readonly disabled /></td>
+            <td rowspan="2"><input type="TEXT" name="M1" rows="2" readonly disabled /></td>
+            <td><input type="TEXT" name="N1" /></td>
+            <td><input type="TEXT" name="O1" readonly disabled /></td>
+            <td><input type="TEXT" name="P1" readonly disabled /></td>
+            <td class="fillEnroute"></td>
+            <td rowspan="2"><input type="TEXT" name="R1" /></td>
+            <td><input type="TEXT" name="S1" readonly disabled /></td>
+            <td><input type="HIDDEN" name="T1" /></td>
+          </tr>
+          <tr>
+            <td><input type="TEXT" name="B2" /></td>
+            <td><input type="TEXT" name="D2" /></td>
+            <td colspan="2"><input type="TEXT" name="G2H2" /></td>
+            <td><input type="TEXT" name="J2" readonly disabled /></td>
+            <td><input type="TEXT" name="K2" /></td>
+            <td><input type="TEXT" name="L2" /></td>
+            <td><input type="TEXT" name="N2" readonly disabled /></td>
+            <td class="fillEnroute"></td>
+            <td class="fillEnroute"></td>
+            <td class="fillEnroute"></td>
+            <td><input type="TEXT" name="S2" readonly disabled /></td>
+            <td></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td valign="MIDDLE">
+              <p></p>
+            </td>
+            <td valign="MIDDLE">
+              <p></p>
+            </td>
+            <td valign="MIDDLE">
+              <p></p>
+            </td>
+            <td valign="MIDDLE">
+              <p></p>
+            </td>
+            <td valign="MIDDLE">
+              <p></p>
+            </td>
+            <td valign="MIDDLE">
+              <p></p>
+            </td>
+            <td valign="MIDDLE">
+              <p></p>
+            </td>
+            <td valign="MIDDLE">
+              <p></p>
+            </td>
+            <td valign="MIDDLE">
+              <p></p>
+            </td>
+            <td valign="MIDDLE">
+              <p></p>
+            </td>
+            <td valign="MIDDLE">
+              <p></p>
+            </td>
+            <td valign="MIDDLE">
+              <p></p>
+            </td>
+            <td valign="MIDDLE">
+              <font face="Arial"><p>Total</p></font>
+            </td>
+            <td valign="MIDDLE">
+              <p>
+                <input type="TEXT" name="NTOT" />
+              </p>
+            </td>
+            <td valign="MIDDLE">
+              <p></p>
+            </td>
+            <td valign="MIDDLE">
+              <p>
+                <input type="TEXT" name="PTOT" />
+              </p>
+            </td>
+            <td valign="MIDDLE">
+              <p></p>
+            </td>
+            <td valign="MIDDLE">
+              <p></p>
+            </td>
+            <td valign="MIDDLE">
+              <p>
+                <input type="TEXT" name="STOT" />
+              </p>
+            </td>
+            <td valign="MIDDLE">
+              <p></p>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+      <p>
+        <input class="large-button" type="BUTTON" value="COMPUTE" ONCLICK="ComputeResults(this.form)" />
+        <input class="large-button" type="reset" value="CLEAR" />
+        <input class="large-button" type="BUTTON" value="DELETE ROW" ONCLICK="deleteRow()" />
+        <input class="large-button" type="BUTTON" value="ADD ROW" ONCLICK="insertRow()" />
+      </p>
+    </form>
+  </body>
+</html>

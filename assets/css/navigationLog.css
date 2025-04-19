@@ -1,32 +1,31 @@
 h1 {
-    border-bottom: 1px solid black;
-    line-height: 0.7em;
+  border-bottom: 1px solid black;
+  line-height: 0.7em;
 }
 
 h3 {
-    line-height: 0.3em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;    
+  line-height: 0.3em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
 }
-
 
 .large-button {
-    width: 200px;
-    height: 50px;
-    background-color: rgb(170, 218, 202);
-    border-radius: 15px;
-
+  width: 200px;
+  height: 50px;
+  background-color: rgb(170, 218, 202);
+  border-radius: 15px;
 }
 
-
-table, th, td {
+table,
+th,
+td {
   border: 1px solid black;
   border-collapse: collapse;
 }
 
 td.fitwidth {
-    width: 1px;
-    white-space: nowrap;
+  width: 1px;
+  white-space: nowrap;
 }
 
 thead,
@@ -36,7 +35,7 @@ tfoot {
 }
 
 tbody {
-   background-color: #e4f0f5;    
+  background-color: #e4f0f5;
 }
 
 .navLog table {
@@ -56,9 +55,10 @@ tbody {
   width: 100%;
 }
 
-.last-child { width: 100%; height: 100% } 
-
-
+.last-child {
+  width: 100%;
+  height: 100%;
+}
 
 /* Clear floats after the columns */
 .row {
@@ -82,39 +82,39 @@ caption {
 }
 
 .navLog tbody tr:nth-child(odd) {
-  background-color: #4C8BF5;
+  background-color: #4c8bf5;
   color: #000000;
 }
 
 .navLog tbody tr:nth-child(4n + 1) td,
 .navLog tbody tr:nth-child(4n + 2) td {
-    background-color: #e4f0f5;
-    color: #000000;     
+  background-color: #e4f0f5;
+  color: #000000;
 }
 
 .navLog tbody tr:nth-child(4n + 3) td,
 .navLog tbody tr:nth-child(4n + 4) td {
-    background-color: #f4f0f5;
-    color: #000000;         
+  background-color: #f4f0f5;
+  color: #000000;
 }
 
 input {
-    height:100%; 
-    width: 100%;
-    box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 input[type="text"][disabled] {
-   color: rgb(0,0,255);
+  color: rgb(0, 0, 255);
 }
 
-textarea {  
-    height: 100%;
-    width: 100%;
-    box-sizing: border-box;
-    resize: none;
+textarea {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  resize: none;
 }
 
 .fillEnroute {
-    background-color: rgb(240, 255, 240) !important;
+  background-color: rgb(240, 255, 240) !important;
 }
