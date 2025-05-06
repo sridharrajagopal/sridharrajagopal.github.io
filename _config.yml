@@ -176,6 +176,8 @@ external_sources:
     rss_url: https://medium.com/feed/upbeatlabs-music
   - name: Hackster
     posts:
+      - url: https://www.hackster.io/sridhar-rajagopal/stereoscopic-3d-streaming-camera-and-viewer-part-2-1754f7
+        published_date: 2025-01-09
       - url: https://www.hackster.io/sridhar-rajagopal/protostaxag-arduino-giga-display-demo-2a2591
         published_date: 2024-09-06
       - url: https://www.hackster.io/sridhar-rajagopal/portable-arduino-game-console-part-2-snake-game-ab5137
