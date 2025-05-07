@@ -3,7 +3,7 @@ layout: page
 title: Miscellaneous Maker Projects
 description: A few other projects ...
 img: assets/img/MiscMakerProjects.png
-importance: 3
+importance: 5
 category: maker
 ---
 
