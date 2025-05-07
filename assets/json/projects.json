@@ -1,12 +1,12 @@
 {
-    "projects": [
+  "projects": [
     {
       "title": "BreatheRight - Personalized Air Quality Monitoring",
       "title-link": "https://www.hackster.io/sridhar-rajagopal/breatheright-personalized-air-quality-monitoring-52dccd",
       "media": "https://hackster.imgix.net/uploads/attachments/1352655/_FWO6nzf07x.blob?auto=compress%2Cformat&w=300&h=225&fit=min",
       "description": "Predicting wellness based on user health detection in addition to environmental data using machine learning.",
       "products": []
-    },        
+    },
     {
       "title": "How to Build an Arduino Energy Monitor and Data Logger",
       "title-link": "https://www.hackster.io/sridhar-rajagopal/how-to-build-an-arduino-energy-monitor-and-data-logger-3bf795",
