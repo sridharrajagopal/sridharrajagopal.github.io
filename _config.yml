@@ -185,7 +185,7 @@ external_sources:
       - url: https://www.hackster.io/sridhar-rajagopal/portable-arduino-game-console-part-1-endless-runner-7a6019
         published_date: 2022-07-07
       - url: https://www.hackster.io/sridhar-rajagopal/multi-track-music-player-f661ba
-        published: 2022-03-16
+        published_date: 2022-03-16
       - url: https://www.hackster.io/sridhar-rajagopal/breatheright-personalized-air-quality-monitoring-52dccd
         published_date: 2021-09-20
       - url: https://www.hackster.io/sridhar-rajagopal/control-arduino-nano-ble-with-bluetooth-python-331e33
