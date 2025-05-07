@@ -3,7 +3,7 @@ layout: page
 title: Sensor Tag Logger
 description: Log data from TI Sensor Tag over BLE
 img: assets/img/SensorTagLogger.png
-importance: 3
+importance: 4
 category: maker
 ---
 
@@ -42,8 +42,9 @@ schematic and firmware are open sourced on GitHub.
 **Background Context**
 
 I saw that someone had used the SensorTag to collect data from an
-amateur rocket launch
-(http://makezine.com/projects/iphone-flies-on-a-rocket-collect-and-analyze-data/). You
+amateur rocket launch (
+[iPhone Flies on a Rocket: Collect and Analyze Data!](http://makezine.com/projects/iphone-flies-on-a-rocket-collect-and-analyze-data/)
+). You
 had to either fly an iPhone with the rocket, or limit the data
 collection to at best 300 feet of flight data (the best case range for
 Bluetooth LE).
@@ -59,13 +60,13 @@ starts logging the data to a microSD card, along with the timestamp,
 in a Comma-separated value (CSV) format, for easy importing into
 spreadsheets for additional processing and graphing.
 
-** Supplementary Links **
+**Supplementary Links**
 
-Sensor Tag Logger firmware - (https://github.com/sridharrajagopal/SensorTagLogger)
+Sensor Tag Logger firmware - [https://github.com/sridharrajagopal/SensorTagLogger](https://github.com/sridharrajagopal/SensorTagLogger)
 Sensor Tag Logger writeup with additional details -
-(https://bayareamaker.wordpress.com/2015/09/15/arduino-bluetooth-le-logger-for-ti-sensortag-and-others/)
+[https://bayareamaker.wordpress.com/2015/09/15/arduino-bluetooth-le-logger-for-ti-sensortag-and-others/](https://bayareamaker.wordpress.com/2015/09/15/arduino-bluetooth-le-logger-for-ti-sensortag-and-others/)
 
-** Build Process **
+**Build Process**
 
 I learned to use Eagle CAD for schematic and board design. I also had
 to create custom library components. I used OSH Park to make the PCB,
