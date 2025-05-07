@@ -23,28 +23,34 @@ category: maker
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/F88HN92HP9NHSKP.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
         </div>
-        <div class="caption">
+ </div>
+<div class="caption">
     Cat scratcher post with laser cut cardboard
  </div>
+
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/F2ACVQLHNM4C2EG.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
         </div>
-        <div class="caption">
+</div>
+<div class="caption">
     Sheet metal and powder coating project
  </div>
-</div>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/F7H677THDOVYXOT.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
         </div>
-        <div class="caption">
+</div>
+<div class="caption">
    Wood turning project - Chess Rook
- </div>
+</div>
+   
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/IMG_5410.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
         </div>
-        <div class="caption">
+</div>
+<div class="caption">
     Laser cut bubinga wood keepsake box with inlay work
  </div>
-</div>
