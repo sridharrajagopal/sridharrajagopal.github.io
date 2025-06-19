@@ -1,6 +1,18 @@
 {
   "projects": [
     {
+      "title": "Energy Monitoring Device with integrated Web App",
+      "title-link": "https://www.hackster.io/sridhar-rajagopal/energy-monitoring-device-with-integrated-web-app-3f50bc",
+      "media": "https://hackster.imgix.net/uploads/attachments/1857683/_JtSurQUrj8.blob?auto=compress%2Cformat&w=300&h=225&fit=min",
+      "description": "Measure energy parameters (current/voltage/Power/etc) of any plugged-in device and view the dashboard & historical data charts on a web app",
+      "products": [
+        "Dr. Wattson Energy Monitoring Board V2",
+        "ProtoStax Enclosure for Dr. Wattson Energy Monitor",
+        "ProtoStax Enclosure for Raspberry Pi 5 / 4 / 3 Model B/B+",
+        "ProtoStax Horizontal Stacking Kit"
+      ]
+    },
+    {
       "title": "BreatheRight - Personalized Air Quality Monitoring",
       "title-link": "https://www.hackster.io/sridhar-rajagopal/breatheright-personalized-air-quality-monitoring-52dccd",
       "media": "https://hackster.imgix.net/uploads/attachments/1352655/_FWO6nzf07x.blob?auto=compress%2Cformat&w=300&h=225&fit=min",
