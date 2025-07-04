@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "title": "Weather Station with Indoor & Outdoor data",
+      "title-link": "https://www.hackster.io/sridhar-rajagopal/weather-station-with-indoor-outdoor-data-2a7b44",
+      "media": "https://hackster.imgix.net/uploads/attachments/1863271/_DrHvVcj8bz.blob?auto=compress%2Cformat&w=300&h=225&fit=min",
+      "description": "Create a tabletop weather station with graphical display with Arduino Giga and BME280",
+      "products": ["ProtoStax-AG Enclosure for Arduino Giga Display"]
+    },
+    {
       "title": "Energy Monitoring Device with integrated Web App",
       "title-link": "https://www.hackster.io/sridhar-rajagopal/energy-monitoring-device-with-integrated-web-app-3f50bc",
       "media": "https://hackster.imgix.net/uploads/attachments/1857683/_JtSurQUrj8.blob?auto=compress%2Cformat&w=300&h=225&fit=min",
