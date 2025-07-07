@@ -8,6 +8,7 @@ github_repos:
   - sridharrajagopal/SensorTagLogger
   - upbeatlabs/UpbeatLabs_Python_MCP39F521
   - upbeatlabs/UpbeatLabs_MCP39F521
+  - protostax/ProtoStaxAG_WeatherStation
   - protostax/ProtoStaxAG_Arduino_Giga_Display_Demo
   - protostax/ProtoStax_Documentation
   - protostax/ProtoStax_StereoscopicCameraPi
