@@ -176,6 +176,8 @@ external_sources:
     rss_url: https://medium.com/feed/upbeatlabs-music
   - name: Hackster
     posts:
+      - url: https://www.hackster.io/sridhar-rajagopal/weather-station-with-indoor-outdoor-data-2a7b44
+        published_date: 2025-07-02
       - url: https://www.hackster.io/sridhar-rajagopal/stereoscopic-3d-streaming-camera-and-viewer-part-2-1754f7
         published_date: 2025-01-09
       - url: https://www.hackster.io/sridhar-rajagopal/protostaxag-arduino-giga-display-demo-2a2591
