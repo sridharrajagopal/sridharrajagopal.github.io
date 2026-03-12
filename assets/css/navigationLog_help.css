@@ -1,6 +1,4 @@
-table,
-th,
-td {
+table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
   padding: 10px;
@@ -27,4 +25,12 @@ table {
 caption {
   caption-side: bottom;
   padding: 10px;
+}
+
+.fillEnroute {
+    background-color: rgb(240, 255, 240) !important;
+}
+
+.computed {
+    background-color: rgb(153, 255, 255) !important;
 }
