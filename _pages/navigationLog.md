@@ -9,7 +9,12 @@ nav_order: 6
 
 Online Javascript based VFR Navigation Log.
 
-![VFR Navigation Log](assets/img/navLog.png)
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/navLog.png"
+    title="navigation log" class="img-fluid rounded z-depth-1"  zoomable=true %}
+    </div>
+</div>
 
 This falls somewhere between fully manual calculations using a E6B flight computer (aka whiz wheel) and using fully automated EFB (Electronic Flight Bag) app based navigation. It gives you the pleasure and control of following a more traditional navigational method but once you've gotten the hang of it, this NavLog helps with the manual calculations using interpolation, and the E6B, etc.
 
@@ -23,4 +28,4 @@ This was a fun little project to implement and I learned a lot, from optimizing 
 
 If you're interested in the code and perhaps want to add more functionality (like integrating aircraft operational data to further help with the calculations), you can find the source code on [GitHub](https://github.com/sridharrajagopal/NavLog)
 
-If you want to use the [Online VFR Navigation Log](navigationLog.html) just click on the link!
+If you want to use the [Online VFR Navigation Log](../navigationLog.html) just click on the link!
