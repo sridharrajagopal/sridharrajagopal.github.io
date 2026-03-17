@@ -9,6 +9,8 @@ nav_order: 6
 
 Online Javascript based VFR Navigation Log.
 
+![VFR Navigation Log](assets/img/navLog.png)
+
 This falls somewhere between fully manual calculations using a E6B flight computer (aka whiz wheel) and using fully automated EFB (Electronic Flight Bag) app based navigation. It gives you the pleasure and control of following a more traditional navigational method but once you've gotten the hang of it, this NavLog helps with the manual calculations using interpolation, and the E6B, etc.
 
 Fill out the necessary data, press Compute to calculate computed fields. You can print out the page in Landscape mode and use it as a navigation log enroute.
