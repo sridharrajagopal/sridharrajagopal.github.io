@@ -6,6 +6,7 @@ repo_description_lines_max: 2
 github_repos:
   - sridharrajagopal/BreatheRight
   - sridharrajagopal/SensorTagLogger
+  - sridharrajagopal/NavLog
   - upbeatlabs/UpbeatLabs_Python_MCP39F521
   - upbeatlabs/UpbeatLabs_MCP39F521
   - protostax/ProtoStaxAG_WeatherStation
