@@ -23,7 +23,10 @@ module ExternalPosts
     end
 
     def fetch_from_rss(site, src)
-      xml = HTTParty.get(src['rss_url']).body
+      headers = {
+            "User-Agent" => "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      }
+      xml = HTTParty.get(src['rss_url'], headers: headers).body
       return if xml.nil?
       feed = Feedjira.parse(xml)
       process_entries(site, src, feed.entries)
@@ -86,7 +89,10 @@ module ExternalPosts
     end
 
     def fetch_content_from_url(url)
-      html = HTTParty.get(url).body
+      headers = {
+            "User-Agent" => "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      }
+      html = HTTParty.get(url, headers: headers).body
       parsed_html = Nokogiri::HTML(html)
 
       title = parsed_html.at('head title')&.text.strip || ''
