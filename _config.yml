@@ -175,7 +175,7 @@ external_sources:
   - name: medium.com-upbeatlabs
     rss_url: https://medium.com/feed/upbeatlabs-music
   - name: Hackster
-    rss_url: assets/xml/hackster_projects.xml 
+    rss_url: assets/xml/hackster_projects.xml
 
 # -----------------------------------------------------------------------------
 # Newsletter
