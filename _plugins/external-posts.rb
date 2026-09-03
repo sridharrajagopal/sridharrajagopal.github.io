@@ -23,10 +23,34 @@ module ExternalPosts
     end
 
     def fetch_from_rss(site, src)
-      xml = HTTParty.get(src['rss_url']).body
-      return if xml.nil?
-      feed = Feedjira.parse(xml)
-      process_entries(site, src, feed.entries)
+      # Retrieve the rss_url from configuration
+      rss_path = src['rss_url']
+
+      if rss_path.nil? || rss_path.strip.empty?
+        Jekyll.logger.warn "External Posts:", "No rss_url provided for source. Skipping."
+        next
+      end
+
+      xml = if rss_path.start_with?('http://', 'https://')
+              # Fetch over HTTP/HTTPS for remote feeds
+              HTTParty.get(rss_path).body
+            else
+              # Resolve local file path relative to Jekyll source root
+              file_path = File.expand_path(rss_path, site.source)
+        
+              if File.exist?(file_path)
+                File.read(file_path)
+              else
+                Jekyll.logger.error "External Posts:", "Local RSS file not found at: #{file_path}"
+                nil
+              end
+            end
+
+      # Proceed with parsing if XML content was successfully read
+      if xml      
+        feed = Feedjira.parse(xml)
+        process_entries(site, src, feed.entries)
+      end
     end
 
     def process_entries(site, src, entries)
