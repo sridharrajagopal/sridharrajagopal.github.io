@@ -7,6 +7,7 @@ on:
       - main
     paths:
       - "assets/**"
+      - "scripts/**"
       - "**.bib"
       - "**.html"
       - "**.js"
@@ -77,6 +78,7 @@ jobs:
         with:
           python-version: "3.13"
           cache: "pip" # caching pip dependencies
+          cache-dependency-path: "scripts/requirements.txt" # Automatically triggers re-caching when requirements.txt changes
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:
@@ -87,7 +89,8 @@ jobs:
       - name: Install and Build 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick        
-          pip3 install --upgrade nbconvert
+          pip3 install -r scripts/requirements.txt
+          python3 scripts/update_rss.py
           export JEKYLL_ENV=production
           bundle exec jekyll build
       - name: Purge unused CSS 🧹

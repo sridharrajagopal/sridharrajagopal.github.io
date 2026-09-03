@@ -23,15 +23,7 @@ module ExternalPosts
     end
 
     def fetch_from_rss(site, src)
-      headers = {
-            "User-Agent" => "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-            "Accept" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
-            "Accept-Language" => "en-US,en;q=0.9",
-            "Accept-Encoding" => "gzip, deflate, br",
-            "Connection" => "keep-alive",
-            "Upgrade-Insecure-Requests" => "1"
-      }
-      xml = HTTParty.get(src['rss_url'], headers: headers).body
+      xml = HTTParty.get(src['rss_url']).body
       return if xml.nil?
       feed = Feedjira.parse(xml)
       process_entries(site, src, feed.entries)
@@ -94,15 +86,7 @@ module ExternalPosts
     end
 
     def fetch_content_from_url(url)
-      headers = {
-            "User-Agent" => "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-            "Accept" => "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
-            "Accept-Language" => "en-US,en;q=0.9",
-            "Accept-Encoding" => "gzip, deflate, br",
-            "Connection" => "keep-alive",
-            "Upgrade-Insecure-Requests" => "1"
-      }
-      html = HTTParty.get(url, headers: headers).body
+      html = HTTParty.get(url).body
       parsed_html = Nokogiri::HTML(html)
 
       title = parsed_html.at('head title')&.text.strip || ''
