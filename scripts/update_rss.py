@@ -47,7 +47,7 @@ def generate_rss(output_filename):
         url = proj.get("url")
         title = proj.get("title", "Untitled Project")
         description = proj.get("description", "")
-        pub_date = parse_date(proj.get("pub_date"))
+        pub_date = parse_date(proj.get("pubDate"))
 
         fe = fg.add_entry()
         fe.id(url)
