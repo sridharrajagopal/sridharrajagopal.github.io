@@ -28,7 +28,7 @@ module ExternalPosts
 
       if rss_path.nil? || rss_path.strip.empty?
         Jekyll.logger.warn "External Posts:", "No rss_url provided for source. Skipping."
-        next
+        return
       end
 
       xml = if rss_path.start_with?('http://', 'https://')
