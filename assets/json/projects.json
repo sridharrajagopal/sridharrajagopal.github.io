@@ -82,7 +82,7 @@
       "media": "https://hackster.imgix.net/uploads/attachments/1466297/protostax_endless_runner_game_demo_AXfo4jzNdr.gif?auto=format%2Ccompress&gifq=35&w=300&h=225&fit=min&fm=gif",
       "description": "Make a portable Arduino Gamer with a 16x2 LCD & 2 buttons and run an Endless Runner game with background music and sound effects!",
       "products": ["ProtoStax Enclosure for Arduino", "ProtoStax LCD Kit V2", "ProtoStax Kit for Momentary Push Button Switches"]
-    },      
+    },
     {
       "title": "Multi-Track Music Player",
       "title-link": "https://www.hackster.io/sridhar-rajagopal/multi-track-music-player-f661ba",
