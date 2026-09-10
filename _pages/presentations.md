@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 ---
 
-<div class="row mt-3">
+<div class="row row-cols-1 row-cols-md-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="https://www.youtube.com/embed/kRVdJG9vahc?si=jtmcE3G2-tY98qmj" class="img-fluid rounded z-depth-1" %}
     </div>
