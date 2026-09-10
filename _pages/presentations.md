@@ -2,12 +2,10 @@
 layout: page
 permalink: /presentations/
 title: presentations
-description: Here are some presentations I've given, mainly at different Maker Faires
+description: Here are some presentations I've given
 nav: true
 nav_order: 3
 ---
-
-Here are some presentations I've made, primarily at Maker Faires.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -15,5 +13,14 @@ Here are some presentations I've made, primarily at Maker Faires.
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="https://www.youtube.com/embed/rIBr2LgE5_o?si=7LIqt7o8sQKc_507" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/gZAbuTdCmJ8?si=HWNBCwQkpSN1RaF7" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/SsQio55gSxc?si=gBu0Ib9fWNgLLd38" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/LzQakUzzlg4?si=EmQYhYZkGzcrLbwq" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
