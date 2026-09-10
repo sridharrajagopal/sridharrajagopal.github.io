@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: Some of the projects I've worked on.
 nav: true
-nav_order: 3
+nav_order: 4
 display_categories: [music, maker]
 horizontal: false
 ---
