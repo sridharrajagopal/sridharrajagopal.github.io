@@ -1,7 +1,7 @@
 ---
 layout: page
-title: various presentations
-date: 2023-04-24 21:01:00
+permalink: /presentations/
+title: presentations
 description: Here are some presentations I've given, mainly at different Maker Faires
 nav: true
 nav_order: 3
